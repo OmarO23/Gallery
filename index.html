@@ -1,0 +1,113 @@
+<html style="color-scheme: dark;">
+    <head>
+        <title>My Gallery </title>
+        <style>
+            .header {
+  padding: 25px 700px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header a {
+  
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: .3s;
+
+}
+.header a:hover {
+  background-color: rgb(66, 17, 17);
+}
+.Login {
+    width: 450px;
+    height: 550px;
+    padding: 0px 50px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+    box-sizing: border-box;
+    
+}
+.login img {
+        width: 100px;
+        height: 100px;
+position: relative;
+bottom: 50px;
+left: 120px;
+
+    }
+.login h1 {
+    margin: 0;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+}
+.login label {
+    color: #fff;
+    font-weight: bold;
+}
+.login input {
+    width: 100%;
+    margin: 10px 0px;
+}
+.login input[type="text"],    
+.login input[type="Password"]{
+border: none;
+outline: none;
+height: 40px;
+background: transparent;
+border-bottom: 1px solid #fff;
+color:#fff;
+font-size: 16px;
+}
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    color:#fff;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(132, 2, 253);
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.login input[type="submit"]:hover{
+    background-color: rgb(66, 17, 17);
+}
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+        </style>
+        </head>
+        <body>
+            <div class="header">
+                <a href="Home.html">HOME</a>
+                <a href="index.html">LOGIN</a>
+                <a href="about.html">ABOUT</a>
+                </div>
+                <div class="Login"> 
+                    <img src="Login.png">
+                    <h1>Login Page</h1>
+                    <form>
+                        <label> Username</label>
+                        <input type="text" placeholder="Enter your Username">
+                        <label> Password</label>
+                        <input type="password" placeholder="Enter your Password">
+                        <input type="submit" value="Login">                   
+                        <br>
+                        <a href="#">Forget Password</a>
+
+
+                    </form>
+                </div>
+
+        </body>
+    
+</html>
